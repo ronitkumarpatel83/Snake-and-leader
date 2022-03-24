@@ -8,8 +8,16 @@ namespace Snakeandleader
         {
             Console.WriteLine("Welcome to UC1");
             Console.WriteLine("Snake and ladder game played with singel player start at 0");
-            int num = 0;
+            int start = 0;
 
+        }
+        public static void UC2()
+        {
+            Console.WriteLine("Welcome to UC2");
+
+            Random random = new Random();
+            int diceNumber = random.Next(1, 7);
+            Console.WriteLine($"The Random Dice number is : {diceNumber}");
             Console.ReadLine();
 
         }
@@ -17,6 +25,7 @@ namespace Snakeandleader
         static void Main(string[] args)
         {
             Program.UC1();
+            Program.UC2();
         }
     }
 }
