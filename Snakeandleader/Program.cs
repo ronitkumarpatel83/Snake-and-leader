@@ -18,9 +18,12 @@ namespace Snakeandleader
             Random random = new Random();
             int dice1 = random.Next(1, 7);
             Console.WriteLine("The Random Dice number is :" +dice1);
+<<<<<<< HEAD
             Console.ReadLine();
 
             
+=======
+>>>>>>> 5c8ac5351ce4b3f0c469fb447394f820d64080d0
         }
         
 
@@ -56,9 +59,13 @@ namespace Snakeandleader
                         break;
                     }
             }
+<<<<<<< HEAD
             Console.ReadLine ();
 
 
+=======
+
+>>>>>>> 5c8ac5351ce4b3f0c469fb447394f820d64080d0
         }
         public static void UC4()
         {
@@ -106,6 +113,10 @@ namespace Snakeandleader
 
             }
             Console.WriteLine("Player wins" + count);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5c8ac5351ce4b3f0c469fb447394f820d64080d0
             Console.ReadLine();
         }
 
@@ -161,6 +172,7 @@ namespace Snakeandleader
             }
             
             Console.WriteLine("Player wins" + count);
+<<<<<<< HEAD
             Console.ReadLine();
         }
 
@@ -222,6 +234,9 @@ namespace Snakeandleader
             Console.WriteLine("Player wins" + count);
             Console.WriteLine("Number of time Dice Roll is to win: " + diceRoll);
             Console.ReadLine();
+=======
+
+>>>>>>> 5c8ac5351ce4b3f0c469fb447394f820d64080d0
         }
 
         static void Main(string[] args)
