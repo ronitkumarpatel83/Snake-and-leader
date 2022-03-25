@@ -17,8 +17,50 @@ namespace Snakeandleader
 
             Random random = new Random();
             int dice1 = random.Next(1, 7);
+<<<<<<< HEAD
             Console.WriteLine("The Random Dice number is :" +dice1);
             Console.ReadLine();
+=======
+            Console.WriteLine("The Random Dice number is : "+dice1);
+            
+
+        }
+        
+
+    
+
+        public static void UC3()
+        {
+            int ladder = 1, ldice;
+            int snake = 2, sdice;
+            Console.WriteLine("Welcome to UC3");
+            Random random = new Random();
+            int randomCheck = random.Next(3);
+
+            switch (randomCheck)
+            {
+                case 1:
+                    {
+                        Random rnd = new Random();
+                        ldice = rnd.Next(1, 7);
+                        Console.WriteLine("Got Ladder");
+                        break;
+                    }
+                case 2:
+                    {
+                        Random sran = new Random();
+                        sdice = sran.Next(1, 7);
+                        Console.WriteLine("Got snake");
+                        break;
+                    }
+                default:
+                    {
+                        Console.WriteLine("No play, Stay at base");
+                        break;
+                    }
+            }
+
+>>>>>>> UC-3
 
         }
 
@@ -26,6 +68,7 @@ namespace Snakeandleader
         {
             Program.UC1();
             Program.UC2();
+            Program.UC3();
         }
     }
 }
