@@ -18,7 +18,14 @@ namespace Snakeandleader
             Random random = new Random();
             int dice1 = random.Next(1, 7);
             Console.WriteLine("The Random Dice number is :" +dice1);
+<<<<<<< HEAD
      
+=======
+            Console.ReadLine();
+            Console.WriteLine("The Random Dice number is : "+dice1);
+            
+
+>>>>>>> e9466dab36fb3c342a7f7b7c72bf866dbb1445e8
         }
         
 
@@ -55,6 +62,7 @@ namespace Snakeandleader
                     }
             }
 
+<<<<<<< HEAD
         }
         public static void UC4()
         {
@@ -102,6 +110,8 @@ namespace Snakeandleader
 
             }
             Console.WriteLine("Player wins" + count);
+=======
+>>>>>>> e9466dab36fb3c342a7f7b7c72bf866dbb1445e8
         }
 
         static void Main(string[] args)
