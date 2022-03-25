@@ -17,10 +17,8 @@ namespace Snakeandleader
 
             Random random = new Random();
             int dice1 = random.Next(1, 7);
-<<<<<<< HEAD
             Console.WriteLine("The Random Dice number is :" +dice1);
             Console.ReadLine();
-=======
             Console.WriteLine("The Random Dice number is : "+dice1);
             
 
@@ -59,8 +57,6 @@ namespace Snakeandleader
                         break;
                     }
             }
-
->>>>>>> UC-3
 
         }
 
